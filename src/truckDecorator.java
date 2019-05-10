@@ -11,7 +11,6 @@ public class truckDecorator implements Truck {
 
         return trunk.calTransportCost();
     }
-
     protected Truck trunk;
 
     public truckDecorator(Truck trunk) {
