@@ -8,7 +8,7 @@ public class truckBasic implements Truck  {
 
     @Override
     public double calTransportCost() {
-        System.out.println("ADD BASIC CARRY MODE");
+        System.out.println("ADD BASIC TRANSPORT MODE");
         return 0.0;
     }
 }
