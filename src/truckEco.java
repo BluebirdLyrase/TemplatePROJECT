@@ -1,4 +1,4 @@
-public class trunkFast extends truckDecorator {
+public class truckEco extends truckDecorator{
 
     @Override
     public double calTransportSpeed() {
@@ -7,10 +7,11 @@ public class trunkFast extends truckDecorator {
 
     @Override
     public double calTransportCost() {
+        System.out.println("ADD ECO MODE");
         return trunk.calTransportCost();
     }
 
-    public trunkFast() {
-
+    public truckEco(Truck trunk) {
+        super(trunk);
     }
 }

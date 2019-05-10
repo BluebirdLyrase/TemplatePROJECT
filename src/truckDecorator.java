@@ -1,9 +1,8 @@
-public class truckDecorator implements trunkBasic {
+public class truckDecorator implements Truck {
 
 
     @Override
     public double calTransportSpeed() {
-
         return trunk.calTransportSpeed();
     }
 
@@ -13,9 +12,9 @@ public class truckDecorator implements trunkBasic {
         return trunk.calTransportCost();
     }
 
-    protected trunkBasic trunk;
+    protected Truck trunk;
 
-    public truckDecorator(trunkBasic trunk) {
+    public truckDecorator(Truck trunk) {
         this.trunk = trunk;
     }
 }
