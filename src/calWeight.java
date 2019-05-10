@@ -7,7 +7,4 @@ public abstract class calWeight {
     public double calWeightTemplate(){
         return getArea()*getVolume()*getWeight();
     }
-
-
-
 }
